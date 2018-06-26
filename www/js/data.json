@@ -1,0 +1,92 @@
+[
+    {    
+        "name": "Burger",
+        "pic": "burger",
+        "price": 80
+    },
+    {       
+        "name": "Pizza",
+        "pic": "pizza",
+        "price": 200
+    },
+    {       
+        "name": "Strawberry Ice Cream",
+        "pic": "sicecream",
+        "price": 100
+    },
+    {       
+        "name": "Chocolate Ice Cream",
+        "pic": "cicecream",
+        "price": 120
+    },
+    {       
+        "name": "Chicken Tandoori",
+        "pic": "chicktan",
+        "price": 250
+    },
+    {       
+        "name": "Biryani",
+        "pic": "biryani",
+        "price": 150
+    },
+    {       
+        "name": "Spring Roll",
+        "pic": "sroll",
+        "price": 120
+    },
+    {       
+        "name": "Momo's",
+        "pic": "momo",
+        "price": 80
+    },
+    {       
+        "name": "Hakka Noodles",
+        "pic": "noodle",
+        "price": 110
+    },
+    {       
+        "name": "Butter Chicken",
+        "pic": "bchick",
+        "price": 180
+    },
+    {       
+        "name": "Gulab Jamun",
+        "pic": "jamun",
+        "price": 50
+    },
+    {       
+        "name": "Paratha",
+        "pic": "paratha",
+        "price": 80
+    },
+    {       
+        "name": "Chicken 65",
+        "pic": "chick65",
+        "price": 200
+    },
+    {       
+        "name": "Paneer Thika Masala",
+        "pic": "paneertm",
+        "price": 150
+    },
+    {       
+        "name": "Mango Milkshake",
+        "pic": "mango",
+        "price": 120
+    },
+    {       
+        "name": "Old Monk Rum",
+        "pic": "oldmonk",
+        "price": 150
+    },
+    {       
+        "name": "Tuborg Beer",
+        "pic": "tuborg",
+        "price": 150
+    },
+    {       
+        "name": "Vodka",
+        "pic": "vodka",
+        "price": 220
+    }
+]

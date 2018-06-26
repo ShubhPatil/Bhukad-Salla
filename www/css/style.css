@@ -1,0 +1,55 @@
+.logobtn{
+    background-color: #ff5e35 !important;   
+}
+
+.login_border{
+    border:4px #ff5e35 solid;
+    border-radius: 10px;
+}
+.login_logo{
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    -webkit-animation-delay: 0.3s;
+}
+.logo_name{
+    text-align: center;
+    color: #ff5e35;
+    font-weight: 300;
+}
+.loginbtn{
+    text-align: center;
+}
+.tabbtn{
+    background-color: #ff5e35 !important;
+}
+.tabbtn:hover{
+    background-color: #ff5e35 !important;
+}
+
+.box1, box2, box3 {
+    width: 100%;
+   height: auto;
+}
+.slides{
+    width: 100%;
+    height: auto;
+}
+.chip {
+    display: inline-block;
+    padding: 0 20px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+    border: 1px solid #00ccff;
+    background-color: rgba(0,255,2,0.5);;
+}
+.closebtn {
+    padding: 0 10px;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}

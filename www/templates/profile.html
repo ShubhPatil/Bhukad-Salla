@@ -1,0 +1,37 @@
+        <ion-pane>
+      <ion-content class="has-header" overflow-scroll="false" has-bouncing="true">
+          
+          <div class="padding">
+              
+              <div class="padding">
+                  
+                  <div style="text-align:center;">
+                      <img style="border-radius: 50%;" class="animated fadeIn login_logo" src="img/pdp.jpg">
+                  </div>
+                  
+                  <div >
+                  <p>
+                      <h4 class="logo_name animated fadeIn">Name: {{ pname }}</h4>
+                  <p>
+                  <p>
+                      <h4 class="logo_name animated fadeIn">Email ID: {{ pemail }}</h4>
+                  <p>
+                  <p>
+                      <h4 class="logo_name animated fadeIn">Password: {{ ppass }}</h4>
+                  <p>
+                  <p>
+                      <h4 class="logo_name animated fadeIn">Phone: {{ pphone }}</h4>
+                  <p>
+                  <p>
+                      <h4 class="logo_name animated fadeIn">Address: {{ paddress }}</h4>
+                  <p>
+                      </div>
+          </div>
+        </div>
+          
+          <p class="loginbtn padding"><a class="button button-royal button-outline button-block" ng-click="orderDetails()"><i class="icon ion-android-checkmark-circle"></i>&nbsp;&nbsp;Order Details</a></p>
+          
+          <p class="loginbtn padding"><a class="button button-assertive button-outline button-block" ng-click="wherePos()"><i class="icon ion-android-compass"></i>&nbsp;&nbsp;Get Geolocation</a></p>
+          
+          </ion-content>
+</ion-pane>

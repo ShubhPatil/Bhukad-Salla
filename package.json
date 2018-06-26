@@ -1,0 +1,41 @@
+{
+    "name": "myApp",
+    "version": "0.0.1",
+    "description": "An Ionic project",
+    "devDependencies": {
+        "gulp": "^3.5.6",
+        "gulp-clean-css": "^3.7.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-sass": "^3.1.0"
+    },
+    "dependencies": {
+        "cordova": "^7.1.0",
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-compat": "^1.0.0",
+        "cordova-plugin-device": "^1.1.4",
+        "cordova-plugin-geolocation": "^2.4.3",
+        "cordova-plugin-pin-dialog": "git+https://github.com/Paldom/PinDialog.git",
+        "cordova-plugin-splashscreen": "^4.0.3",
+        "cordova-plugin-statusbar": "^2.2.1",
+        "cordova-plugin-whitelist": "^1.3.1",
+        "cordova-sms-plugin": "git+https://github.com/cordova-sms/cordova-sms-plugin.git",
+        "cordova-sqlite-storage": "git+https://github.com/litehelpers/Cordova-sqlite-storage.git#storage-master",
+        "ionic-plugin-keyboard": "^2.2.1"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-device": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-whitelist": {},
+            "ionic-plugin-keyboard": {},
+            "cordova-sqlite-storage": {},
+            "cordova-plugin-geolocation": {},
+            "cordova-sms-plugin": {},
+            "cordova-plugin-pin-dialog": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}

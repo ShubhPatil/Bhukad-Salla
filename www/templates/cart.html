@@ -1,0 +1,86 @@
+        <ion-pane>
+      <ion-content class="has-header" overflow-scroll="false" has-bouncing="true">
+        
+         <ion-refresher on-refresh="doRefresh()">
+         </ion-refresher>
+          
+          <div style="text-align:center;">
+          <div class="chip">
+            Pull Down To Refresh !
+            <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+        </div>
+              </div>
+          
+          <ion-list ng-init="load()">
+            <ion-item ng-repeat="session in allSessions" class="item item-thumbnail-left">
+                <img src="img/food/items/{{session.pic}}.jpg">
+                <h2>{{ session.itemid }}</h2>
+                <h3 style="display:inline;">&#8377; {{ session.price }}</h3>
+                <button ng-click="increaseItem(session)" style="float:right;" class="button button-calm button-clear icon ion-gear-b"></button>
+                
+                <ion-option-button class="button-assertive" ng-click="showConfirm(session)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon ion-trash-a"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ion-option-button>
+            </ion-item>
+        </ion-list>
+          
+          <!--<div class="list" ng-init="load()">
+                <div ng-repeat="session in allSessions" class="item item-thumbnail-left">
+                    <img src="img/food/items/{{session.pic}}.jpg">
+                    <h2>{{ session.itemid }}</h2>
+                    <div>
+                    <h3 style="display:inline;">&#8377; {{ session.price }}</h3>
+                    <button style="float:right;" ng-click="showConfirm(session)" class="button button-assertive button-clear icon ion-trash-a">
+                    </button>
+                    </div>
+                    
+                    <ion-option-button class="button-assertive"><i class="icon ion-android-call"></i></ion-option-button>
+                </div>
+            </div>-->
+          
+            <div class="item item-divider">Subtotal :<span style="float:right;">&#8377; {{money}}</span></div>
+          
+            <div class="item item-divider">Delivery ...</div>
+            <ul class="list">
+                <li class="item item-toggle">
+                    Instant Delivery
+                    <label class="toggle">
+                     <input type = "checkbox" />
+                     <div class = "track">
+                        <div class = "handle"></div>
+                     </div>
+                  </label>
+                </li>
+            </ul>
+          
+          <div class="item item-divider">Mode of Payment ...</div>
+        <ul class="list">
+            <li class="item item-checkbox checkbox-positive">
+                Debit Card
+                <label class="checkbox">
+                    <input type = "radio" name="pay" />
+                    </label>
+            </li>
+
+            <li class="item item-checkbox  checkbox-assertive">
+                Credit Card
+                <label class="checkbox">
+                 <input type = "radio" name="pay" />
+              </label>
+            </li>
+
+            <li class="item item-checkbox  checkbox-balanced">
+                Net Banking
+                <label class="checkbox">
+                 <input type = "radio" name="pay" />
+              </label>
+            </li>
+
+            <li class="item item-checkbox  checkbox-energized">
+                Cash on Delivery
+                <label class="checkbox">
+                 <input type = "radio" name="pay" />
+              </label>
+            </li>
+        </ul>
+          <p class="loginbtn padding"><a class="button button-balanced button-outline button-block" ng-click="confirmBuy()">&#8377; {{money}} BUY NOW</a></p>
+      </ion-content>
+    </ion-pane>

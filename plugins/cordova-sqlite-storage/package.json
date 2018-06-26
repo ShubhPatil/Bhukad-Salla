@@ -1,0 +1,64 @@
+{
+  "_from": "git+https://github.com/litehelpers/Cordova-sqlite-storage.git#storage-master",
+  "_id": "cordova-sqlite-storage@2.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-1ZHy2XPF/vj0yHcNhsvq/gigr7I=",
+  "_location": "/cordova-sqlite-storage",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/litehelpers/Cordova-sqlite-storage#storage-master",
+    "rawSpec": "https://github.com/litehelpers/Cordova-sqlite-storage#storage-master",
+    "saveSpec": "git+https://github.com/litehelpers/Cordova-sqlite-storage.git#storage-master",
+    "fetchSpec": "https://github.com/litehelpers/Cordova-sqlite-storage.git",
+    "gitCommittish": "storage-master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/litehelpers/Cordova-sqlite-storage.git#952e92b1ebff98c9a975d6c9b56a90b79376618a",
+  "_spec": "https://github.com/litehelpers/Cordova-sqlite-storage#storage-master",
+  "_where": "F:\\Web Development\\BC\\myApp\\node_modules",
+  "author": {
+    "name": "various"
+  },
+  "bugs": {
+    "url": "https://github.com/litehelpers/Cordova-sqlite-storage/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-sqlite-storage",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "dependencies": {
+    "cordova-sqlite-storage-dependencies": "1.0.4"
+  },
+  "deprecated": false,
+  "description": "Native interface to SQLite for PhoneGap/Cordova",
+  "devDependencies": {
+    "shelljs": "^0.7.4"
+  },
+  "homepage": "https://github.com/litehelpers/Cordova-sqlite-storage",
+  "keywords": [
+    "sqlite",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "license": "MIT",
+  "name": "cordova-sqlite-storage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litehelpers/Cordova-sqlite-storage.git"
+  },
+  "scripts": {
+    "start": "node scripts/prepareSpec.js"
+  },
+  "version": "2.0.4"
+}

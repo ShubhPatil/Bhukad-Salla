@@ -1,0 +1,60 @@
+        <ion-pane>
+            <div class="bar bar-subheader item-input-inset bar-light">         
+          <label class="item-input-wrapper">
+                    <i class="icon ion-search placeholder-icon"></i>
+                    <input type="search" ng-model="search" placeholder="Search">
+                </label>
+          </div>
+            
+      <ion-content class="has-header" overflow-scroll="false" has-bouncing="true">
+          
+          <div class="bar item-input-inset"> 
+          </div>
+            
+            <ion-slide-box>
+
+                <ion-slide>
+                    <div class="box box1">
+                        <img class="slides" src="img/food/slideshow/1.jpg" alt=""/>
+                    </div>
+                </ion-slide>
+
+                <ion-slide>
+                    <div class="box box2">
+                        <img class="slides" src="img/food/slideshow/2.jpg" alt=""/>
+                    </div>
+                </ion-slide>
+
+                <ion-slide>
+                    <div class="box box3">
+                        <img class="slides" src="img/food/slideshow/3.jpg" alt=""/>
+                    </div>
+                </ion-slide>
+                
+                <ion-slide>
+                    <div class="box box4">
+                        <img class="slides" src="img/food/slideshow/4.jpg" alt=""/>
+                    </div>
+                </ion-slide>
+                
+                <ion-slide>
+                    <div class="box box5">
+                        <img class="slides" src="img/food/slideshow/5.jpg" alt=""/>
+                    </div>
+                </ion-slide>
+
+            </ion-slide-box>
+                
+            <div class="list">
+                <div ng-repeat="item in items | filter:search" class="item item-thumbnail-left">
+                    <img src="img/food/items/{{item.pic}}.jpg">
+                    <h2>{{ item.name }}</h2>
+                    <div>
+                    <h3 style="display:inline;">&#8377; {{item.price}}</h3>
+                    <button style="float:right;" ng-click="addCart(item)" class="button button-balanced button-outline icon ion-ios-cart">
+                    </button>
+                    </div>
+                </div>
+            </div>
+      </ion-content>  
+    </ion-pane>
